@@ -3,7 +3,6 @@ import FormError from "../components/FormError";
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 import { useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
 
 const AddJobPage = ({ addJobSubmit }) => {
   const navigate = useNavigate();
@@ -26,7 +25,6 @@ const AddJobPage = ({ addJobSubmit }) => {
     };
     console.log(data);
     addJobSubmit(data);
-    toast.success("Job Added Successfully");
     return navigate("/jobs");
   };
 

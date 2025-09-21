@@ -85,39 +85,39 @@
       }
     },
     {
-      "id": "9bb0",
-      "type": "Remote",
-      "title": "asf",
-      "description": "afa",
-      "salary": "$60k - $70k",
-      "location": "adsfa",
-      "name": "asf",
-      "company_description": "safd",
+      "type": "Full-Time",
+      "salary": "$80K - $90K",
+      "title": "Test",
+      "description": "Tests",
+      "location": "Testy",
+      "name": "Test",
+      "company_description": "Testy",
       "email": "test@test.com",
-      "phone": "+96364643654",
+      "phone": "+04846664666",
       "company": {
-        "name": "asf",
-        "description": "afa",
+        "name": "Test",
+        "description": "Tests",
         "contactEmail": "test@test.com",
-        "contactPhone": "+96364643654"
-      }
+        "contactPhone": "+04846664666"
+      },
+      "id": "9bb0"
     },
     {
-      "id": "0e66",
-      "type": "Remote",
-      "title": "asd",
-      "description": "adsf",
+      "id": "f2f1",
+      "type": "Internship",
+      "title": "redux dev",
+      "description": "some tasks",
       "salary": "$60k - $70k",
-      "location": "asd",
-      "name": "adf",
-      "company_description": "afd",
+      "location": "Aleppo, Sy",
+      "name": "A kallas",
+      "company_description": "Some tasks",
       "email": "test@test.com",
-      "phone": "+96365468946",
+      "phone": "+96355565464",
       "company": {
-        "name": "adf",
-        "description": "adsf",
+        "name": "A kallas",
+        "description": "some tasks",
         "contactEmail": "test@test.com",
-        "contactPhone": "+96365468946"
+        "contactPhone": "+96355565464"
       }
     }
   ]

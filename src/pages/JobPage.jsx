@@ -2,19 +2,15 @@ import { FaArrowLeft, FaMapMarker, FaTrash } from "react-icons/fa";
 import { Link, NavLink, useLoaderData, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import DeletePopup from "../components/DeletePopup";
-import { toast } from "react-toastify";
 
 const JobPage = ({ deleteJob }) => {
   const [isOpen, setIsOpen] = useState(false);
   const job = useLoaderData();
   const navigate = useNavigate();
-  const notify = () => toast.success("Job Deleted Successfully!");
 
   const handleDelete = () => {
     deleteJob(job.id);
     navigate("/jobs");
-
-    notify();
   };
 
   return (
