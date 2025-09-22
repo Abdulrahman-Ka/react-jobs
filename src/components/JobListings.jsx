@@ -22,6 +22,7 @@ const JobListings = ({ isHome = false }) => {
     };
 
     fetchJobs();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
