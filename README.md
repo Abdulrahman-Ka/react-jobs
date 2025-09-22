@@ -32,6 +32,22 @@ cd react-jobs
 npm install
 ```
 
+## 🌐 Running the Mock API Server
+
+This project uses [JSON Server](https://github.com/typicode/json-server) to simulate a backend
+
+Start the server with:
+
+```bash
+npm run server
+```
+
+By default, the server runs at: http://localhost:8000/
+<br/>
+You can view and interact with API endpoints such as: http://localhost:8000/jobs
+
+⚠ Make suer the server is running in a separate terminal alongside the Vite dev server.
+
 ## 💻 Running the Development Server
 
 ```bash
